@@ -22,11 +22,7 @@ public class MyServletHibernateDBAlharthi extends HttpServlet {
    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
       response.setContentType("text/html");
 
-      // #1
-      //UtilDBAlhartthi.createCostumers("ali", "4021111111", "aoidjajd65", "toyota", "10/10/2021", "10/20/2021");
-      //UtilDBAlhartthi.createCostumers("user4", "44", "402-111-2222");
-      
-      // #2
+
       retrieveDisplayData(response.getWriter());
    }
 
