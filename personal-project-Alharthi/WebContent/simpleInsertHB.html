@@ -10,7 +10,7 @@ header {
 nav {
     line-height:30px;
     background-color:#eeeeee;
-    height:300px;
+    height:400px;
     width:100px;
     float:left;
     padding:5px;	      
@@ -27,12 +27,17 @@ footer {
     text-align:center;
     padding:5px;	 	 
 }
+label{
+    display: inline-block;
+    width: 250px;
+}
+
 </style>
 </head>
 
 <body>
 <header>
-<h1> Insert costumer</h1>
+<h1> Insert Costumer</h1>
 </header>
 
 <nav>
@@ -40,16 +45,22 @@ footer {
 </nav>
 
 <section>
-	<h1>User Input</h1>
+
 	
 	<form action="SimpleInsertHB" method="POST">
 	
-		User Name: <input type="text" name="name"> <br />
-		Phone: <input type="text" name="phone"> <br />
-		License number: <input type="text" name="license"> <br />
-		Car type: <input type="text" name="car"> <br />
-		Starting date: <input type="text" name="start"> <br />
-		Finishing date: <input type="text" name="finish"> <br />
+		<label>Costumer Name: </label><input type="text" name="name"> <br />
+		<br>
+		<label>Phone: </label><input type="text" name="phone"> <br />
+		<br>
+		<label>License number: </label><input type="text" name="license"> <br />
+		<br>
+		<label>Car type: </label><input type="text" name="car"> <br />
+		<br>
+		<label>Starting date: </label><input type="text" name="start"> <br />
+		<br>
+		<label>Finishing date: </label><input type="text" name="finish"> <br />
+		<br>
 		
 		<input type="submit" value="Submit" />
 	</form>

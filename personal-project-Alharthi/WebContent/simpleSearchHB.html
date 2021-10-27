@@ -22,6 +22,11 @@ section {
 }
  	 
 }
+label{
+    display: inline-block;
+    width: 250px;
+}
+
 </style>
 </head>
 
@@ -36,11 +41,10 @@ section {
 
 <section>
 	<h1>User Input</h1>
-	<p> leave it empty to get all list</p>
 	
 	<form action="SimpleSearchHB" method="POST">
 	
-		Costumer Name: <input type="text" name="keyword"> <br />
+		<label>Costumer Name: </label><input type="text" name="keyword" placeholder="Empty to search all"> <br />
 		
 		<input type="submit" value="Search" />
 	</form>
